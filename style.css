@@ -1,3 +1,454 @@
+/*Start of Part 1*/
+body{
+    overflow-x: hidden;
+    width: 1690px;
+   }
+
+.Heading{
+    /*Configuring The Header text attributes*/
+    font-family: 'Niagara Solid', sans-serif;
+    font-weight: lighter;
+    font-size: 300px;
+    color: #FFD793;    
+    /* Giving some breathing room to the text by spacing it out*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    -ms-flex-align: start;
+    background-color: #100D0B;
+    height:10px;
+    width: 1500px;
+    align-items: center;
+    /*Configuring the Size of the Header*/
+    margin-left: -8.5px;
+    margin-top: -70px;
+    position:absolute;
+    left: 100px;     
+}
+
+/*supposed to remove the underline from the header*/
+.Heading a{
+    /*Configuring The Header text attributes*/
+    font-family: 'Niagara Solid', sans-serif;
+    font-weight: lighter;
+    font-size: 40px;
+    color: #FFD793;    
+}
+
+.heading a:focus, .heading a:hover .heading a:active{
+    text-decoration: none;
+}
 /*
-  CSS File
+@font-face {
+    font-family: "Parchment";
+    src: url("https://fontsforyou.com/fonts/p/Parchment.ttf");
+}
 */
+
+/*Logo Image*/
+.logo {
+    width: 190px;
+    height: -100px;
+    margin-top:130px;
+}
+
+/*Bar Image position*/
+.landImage{
+    display:block;
+    margin-left: -8.5px;
+    margin-right: 0px;
+}
+
+/*Bar Image resolution*/
+img{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    opacity: 0.8;
+
+}
+
+/*White Text over the Bar Image*/
+.barText2{
+    display:flex;
+    font-family: 'Niagara Solid', sans-serif;
+    font-weight: lighter;
+    color: aliceblue;
+    font-size: 180px;
+    position: absolute;
+    top: -220px;
+    left: 50px;
+    height: auto;
+}
+
+/*Brown text under the first Bar Image text*/
+.barText1{
+    display:flex;
+    font-family: 'Niagara Solid', sans-serif;
+    font-weight: lighter;
+    text-shadow: -3px 3px 6px #100D0B;
+    color: #802525;
+    font-size: 180px;
+
+    position: absolute;
+    top: -220px;
+    left: 47px;
+    opacity: 0.77;
+    
+}
+
+
+.rectangleBox{
+    position: absolute;   
+    display: flex;
+    border: 2px solid #FFD793;
+    background-color: #1e0b0bcb;
+    background-blend-mode: multiply;
+    width: 150px;
+    height: 55px;
+    font-family: 'Niagara Solid', sans-serif;
+    font-size: 45px;
+    justify-content: center;
+    align-items: center;
+    color: #FFD793;
+    left: 55px; 
+    top: 590px;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(35, 27, 17, 0.638);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.rectangleBox:hover, .rectangleBox:focus, .rectangleBox:active{
+
+box-shadow: 0 0 20px rgba(35, 27, 17, 0.638);
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+color: #100D0B;
+background-color: #FFD793;
+}
+
+/* END OF LANDING PAGE PART 1*/
+
+/*Start of Section 2*/
+
+.familyPic{
+    width: 100%;
+    max-height: 780px;
+    height: auto;
+    overflow: hidden;
+    opacity: 0.9;
+    margin-left: -8.5px;
+    margin-right: -8.5px;
+    padding-top: -50px;
+    margin-top: -15px;
+    padding-right: -8.5px;
+    image-resolution: 1920px 1080px;
+}
+
+.familyText2{
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    position: absolute;
+    color: aliceblue;
+    font-family: 'Niagara Solid', sans-serif;
+    font-weight: lighter;
+    font-size: 150px;
+    top: 1250px;
+    left: 375px;
+}
+
+.familyText{    
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    position: absolute;
+    color: #441515;
+    font-family: 'Niagara Solid', sans-serif;
+    font-weight: lighter;
+    font-size: 150px;
+    top: 1250px;
+    left: 370px;
+    text-shadow: -0.5px 1px 3px #0e0606ab;
+}
+
+.rectangleBox2{
+    position: absolute;   
+    display: flex;
+    border: 2px solid #FFD793;
+    background-color: #1e0b0bcb;
+    background-blend-mode: multiply;
+    width: 200px;
+    height: 55px;
+    font-family: 'Niagara Solid', sans-serif;
+    font-size: 45px;
+    justify-content: center;
+    align-items: center;
+    color: #FFD793;
+    left: 675px; 
+    top: 1465px;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(35, 27, 17, 0.638);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.rectangleBox2:hover, .rectangleBox2:focus, .rectangleBox2:active{
+
+box-shadow: 0 0 20px rgba(35, 27, 17, 0.638);
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+color: #100D0B;
+background-color: #FFD793;
+}
+
+.layout3{
+    width:100%;
+    max-height: 325px;
+    height: auto;
+    margin-left: -8.5px;
+    margin-right: -8.5px;
+    
+}
+
+.backgroundBarrels{
+    opacity: 0.8;
+}
+
+.inventoryPic1{
+    color: white;
+    font-size: 180px;
+    font-family: 'Niagara Solid', sans-serif;
+    font-weight: lighter;
+    position: absolute;
+    top: 1600px;
+    left: 50px;
+}
+
+.inventoryPic{
+    color: #1e0b0bcb;
+    font-size:180px;
+    font-family:'Niagara Solid', sans-serif;
+    font-weight: lighter;
+    position: absolute;
+    top: 1600px;
+    left: 45px;
+    text-shadow: -0.5px 1px 3px #0e0606ab;
+}
+
+.product{
+    width: 950px;
+    top: 1610px;
+    left: 630px;
+    cursor: pointer;
+    position: absolute;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.product:hover, .product:focus, .product:active{
+
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+color: transparent;
+background-color: transparent;
+}
+
+
+.rectangleBox3{
+    position: absolute;   
+    display: flex;
+    border: 2px solid #FFD793;
+    background-color: #1e0b0bcb;
+    background-blend-mode: multiply;
+    width: 200px;
+    height: 55px;   
+    font-size: 45px;
+    font-family: 'Niagara Solid', sans-serif;
+    justify-content: center;
+    align-items: center;
+    color: #FFD793;
+    left: 60px; 
+    top: 2130px;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(35, 27, 17, 0.638);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.rectangleBox3:hover, .rectangleBox3:focus, .rectangleBox3:active{
+
+box-shadow: 0 0 20px rgba(35, 27, 17, 0.638);
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+color: #100D0B;
+background-color: #FFD793;
+}
+
+
+.reviewer{
+    width: 800px;
+    height: auto;
+    left: 30px;
+    position: relative;
+    top: 350px;
+}
+
+.reviewText{
+    color: white;
+    font-size: 45px;
+    height: auto;
+    position: absolute;
+    top: 2525px;
+    left: 780px;
+
+}
+
+.reviewerID{
+    font-family: 'Niagara Solid', sans-serif;
+    color: aliceblue;
+    font-size: 70px;
+    position: absolute;
+    top: 2930px;
+    left: 270px;
+}
+
+/*Flex box for the newsletter*/
+.inputBox{
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 1652px;
+    background-color: #FFD793;
+    height: 150px;  
+    margin-left: -8.5px;
+
+
+}
+
+/*Box for the user input*/
+.inputBox input{
+    border: 2px solid black;
+    outline: none;
+    font-size: 25px;
+    height: 70px;
+    width: 300px;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    margin-left: -8.5px;
+    margin-right: -8.5px;
+    padding-right: -3px;
+    flex-direction: column;
+    background: #FFD793;
+}
+/* Call of action Label for users*/
+.inputBox span{
+    position: absolute;
+    left: 730px;
+    padding: 300px;
+    pointer-events: none;
+    text-transform: uppercase;
+    color: #100D0B;
+    font-family: 'Niagara Solid', sans-serif;
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+.newsLetter{
+    color: #100D0B;
+    font-size: 100px;
+    left: 120px;
+    font-family: 'Niagara Solid', sans-serif;
+    position: absolute;
+    top: 3100px;
+    font-weight: lighter;
+    text-transform: uppercase;
+
+}
+
+.familyButton{
+    position: absolute;   
+    display: flex;
+    border: none;
+    background-color: #1c1713;
+    background-blend-mode: multiply;
+    width: 200px;
+    height: 55px;   
+    font-size: 45px;
+    font-family: 'Niagara Solid', sans-serif;
+    justify-content: center;
+    align-items: center;
+    color: #FFD793;
+    left: 120px; 
+    top: 3450px;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(35, 27, 17, 0.638);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+    
+}
+
+.familyButton:hover, .familyButton:focus, .familyButton:active{
+    
+    box-shadow: 0 0 20px rgba(35, 27, 17, 0.638);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    color: #100D0B;
+    background-color: #FFD793;
+}
+
+.familyButton a{
+    color: #FFD793;
+    width: 200px;
+    height: 55px;
+}
+/*Removing the underline from the link*/
+a:hover, a:active, a:focus{
+    text-decoration: none;
+    color: #100D0B;  
+    
+}
+
+
+
+.closer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    font-size: 25px;
+    color: #FFD793;
+    background-color: rgba(35, 27, 17, 0.638);
+    width: 1650px;
+    height: 120px;
+    bottom:260px;
+    overflow: hidden;
+    margin-left: -8.5px;
+    margin-bottom: 50px;
+    padding-top:50px;
+    justify-content: space-evenly;
+}
+
+.copyright{
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    top:3400px;
+    left:400px;
+    overflow: hidden;
+}

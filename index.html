@@ -1,29 +1,152 @@
 <!DOCTYPE html>
-<html lang="en-ca">
-  <head>
-    <!-- Set the page title -->
-    <title>Assignment 02</title>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <Title>House of Shelby</Title>
+        <link href="style.css"rel="stylesheet" type="text/css">
+        <link href="reset.css"rel="stylesheet" type="text/css">   
+    </head>
+    <body>
+        <style>
+            body{
+                background-color:#100D0B;
+            }
+            
+        </style>
+        
+        <!--Navigation options for the website-->
+        <div class="Heading">
+            <p><a href="#">menu</a></p>
+            <p><a href="#">process</a></p>
+            <p><a href="#">barrels</a></p>
+            <!--Logo that will be used for the website-->
+            <div class="logo">
+                <img src="./images/shelby.png" alt="Logo Picture is here.">
+            </div>
+            
+            <p><a href="#">visit us</a></p>
+            <p><a href="#">our story</a></p>
+            <p><a href="#">family recipe</a></p>
+        </div>
 
-    <!-- Set the charset we're using to UTF-8 -->
-    <meta charset="UTF-8" />
+        <!--Landing Page introduction (First thing the users are gonna see)-->
+        <div class="layout1">
+            <!--Bar Image for the first layout-->
+            <div class="landImage">
+                <img src="./images/landingPageBar.png" alt="A Picture of a Bar.">
+                <!--First layer of Text-->
+                <h5 class="barText1">Embrace the <br>
+                    taste of the <br>
+                    Shelby's</h5>
+                <!--Second Layer  of Text-->
+                <h5 class="barText2">Embrace the <br>
+                    taste of the <br>
+                    Shelby's</h5>
+                <!--Button under the text/Call to action-->
+                <button class="rectangleBox"> Have a sip</button>
+            </div>
 
-    <!-- Set the screens default zoom / scale to 1 -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+        </div>
+       
+        <!--Family introduction, part 2 of the layout-->
+        <div class="layout2">
+            <!--Family picture of the 2nd layout-->
+            <div class="familyPic">
+                <img src="./images/familyPicture.png" alt="Pictures of Barrels of beer">
+            </div>
+            <!--Engaging text that comes (White)-->
+            <h5 class="familyText"> We keep it in the family.</h5>
+            <!--Brown underline of the text above-->
+            <h5 class="familyText2"> We keep it in the family.</h5>
+            <button class="rectangleBox2"> Our History</button>
+        </div>
+    </body>
+
+    <div class="layout3">
+        <!--Background Image of Barrels-->
+        <div class="backgroundBarrels">
+            <img src="./images/barrels.png" alt="Picture of barrels of beer">
+        </div>
+        <!--White Text title-->
+        <h4 class="inventoryPic"> 
+            Taste the <br>
+            difference. 
+        </h4>
+        <!--Brown Text title-->
+        <h4 class="inventoryPic1">
+            Taste the <br>
+            difference.
+        </h4>
+        <!--Reviewer Picture-->
+        <div class="product">
+            <img src="./images/beerGlass.png" alt="Picture of reviewer">
+        </div>
+
+        <button class="rectangleBox3"> Taste our secret</button>
+    </div>
+
+    <div class="layout4">
+        <div class="reviewer">
+            <img src="./images/review.png" alt="Picture of a reviewer">
+        </div>
+        <div class="reviewText">
+            <p>"This stuff be bussin' for real for real, <br>
+                like, makes me want to yolo foh sho foh sho. <br>
+                Incredible experience you won't get anywhere else,
+                yah dig?".
+            </p>
+        </div>
+        <div class="reviewerID">
+            <p>Clarence MafuMafu</p>
+        </div>
+
+    </div>
+
+    <!--Contact Section for the custoemrs-->
+    <div class="inputBox">
+        <input type="text" required="required">
+        <span>First Name</span>
+    </div>
     
-    <!-- Specifies the document mode for Internet Explorer -->
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <div class="inputBox">
+        <input type="text" required="required">
+        <span>Last Name</span>
+    </div>
 
-    <!-- We are using a CSS Reset file to standardize browser default css -->
-    <link rel="stylesheet" href="reset.css" />
+    <div class="inputBox">
+        <input type="text" required="required">
+        <span>Email</span>
+    </div>
 
-    <!-- This is where all of our awesome CSS code goes -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!--
+    <!--Call of action for the inputs-->
+    <div class="newsLetter">
+        <h3>Become part of <br>
+        our family</h3>
+    </div>
+    <div class="joinButton">
+        <button class="familyButton"> 
+           <p> <a href="http://127.0.0.1:5500/Shelby.html">Join</a></p> 
+        </button>
+    </div>
 
-      YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
 
-    -->
-  </body>
+
+    <!--Closing section, basically re-iterrating the info before
+    but in one spot.-->
+    <div class="closer">
+        <p>Contact us</p>
+        <p>Learn more</p>
+        <p>Locations</p>
+        <p>Certificates</p>
+        <p>Privacy Policy</p>
+        <p>Pressroom</p>
+        
+        
+    </div>
+
+    <div class="copyright">
+        <img src="./images/trademark.png" alt="trademark">
+    </div>
+
 </html>
