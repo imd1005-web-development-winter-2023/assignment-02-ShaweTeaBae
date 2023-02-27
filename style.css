@@ -1,3 +1,8 @@
+/*Removing the horizontal scroll*/
+body{
+ overflow-y: hidden;
+}
+
 /*Start of Part 1*/
 .Heading{
     /*Configuring The Header text attributes*/
